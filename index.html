@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pohyb pomocí šipek</title>
+    <style>
+        #pole {
+            width: 650px;
+            height: 500px;
+            border: 5px solid #000;
+            position: fixed;
+            overflow: hidden;
+        }
+
+        #hrac {
+            width: 25px;
+            height: 25px;
+            background-color: #000;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .utocnaTecka {
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            position: absolute;
+        }
+
+        .zbran {
+            width: 10px;
+            height: 10px;
+            position: absolute;
+        }
+
+        .ohen {
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+
+<div id="pole">
+    <div id="hrac"></div>
+</div>
+
+<script src="scriptTesting.js"></script>
+</body>
+</html>
